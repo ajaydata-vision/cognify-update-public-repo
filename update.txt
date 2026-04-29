@@ -1,14 +1,14 @@
 {
   "product": "Cognify",
   "channel": "stable",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "update_type": "app",
-  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.3-20260429.zip",
-  "published_at": "2026-04-29T15:55:56+05:30",
+  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.4-20260429.zip",
+  "published_at": "2026-04-29T21:56:32+05:30",
   "requires_restart": true,
   "requires_existing_install": true,
-  "sha256": "fc64c95640d9bf100a8859a0494d85ca086f5f7c9f2344e0986c1bf4d16247c5",
-  "size_bytes": 107648,
+  "sha256": "cf047e4f8d7d1acd70d996500f94e01538d224a1b26164a305b2014b8fc03139",
+  "size_bytes": 107649,
   "file_count": 39,
   "components": {
     "app": true,
@@ -19,8 +19,8 @@
   },
   "entrypoint": "Cognify.bat",
   "notes": [
-    "Cognify version 1.1.3 app-only update",
-    "Fixes updater backup failure when Electron default_app.asar is present",
+    "Cognify version 1.1.4 no-op app-only update",
+    "Used to verify the GitHub app updater flow",
     "Requires an existing Cognify baseline install",
     "No Electron, Screenpipe, FFmpeg, node_modules, or .NET runtime included"
   ]
