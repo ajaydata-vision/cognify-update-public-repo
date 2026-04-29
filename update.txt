@@ -1,14 +1,14 @@
 {
   "product": "Cognify",
   "channel": "stable",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "update_type": "app",
-  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.2-20260429.zip",
-  "published_at": "2026-04-29T15:50:33+05:30",
+  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.3-20260429.zip",
+  "published_at": "2026-04-29T15:55:56+05:30",
   "requires_restart": true,
   "requires_existing_install": true,
-  "sha256": "ae55754d563bbed38e84d4af225e84538b7588903a3a9a0eebf5c41367a5bb9a",
-  "size_bytes": 107543,
+  "sha256": "fc64c95640d9bf100a8859a0494d85ca086f5f7c9f2344e0986c1bf4d16247c5",
+  "size_bytes": 107648,
   "file_count": 39,
   "components": {
     "app": true,
@@ -19,8 +19,8 @@
   },
   "entrypoint": "Cognify.bat",
   "notes": [
-    "Cognify version 1.1.2 app-only update",
-    "Health Details removes internal scrolling",
+    "Cognify version 1.1.3 app-only update",
+    "Fixes updater backup failure when Electron default_app.asar is present",
     "Requires an existing Cognify baseline install",
     "No Electron, Screenpipe, FFmpeg, node_modules, or .NET runtime included"
   ]
