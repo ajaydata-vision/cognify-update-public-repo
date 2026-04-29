@@ -1,15 +1,15 @@
 {
   "product": "Cognify",
   "channel": "stable",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "update_type": "app",
-  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.4-20260429.zip",
-  "published_at": "2026-04-29T21:56:32+05:30",
+  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.5-20260430.zip",
+  "published_at": "2026-04-30T00:32:37+05:30",
   "requires_restart": true,
   "requires_existing_install": true,
-  "sha256": "cf047e4f8d7d1acd70d996500f94e01538d224a1b26164a305b2014b8fc03139",
-  "size_bytes": 107649,
-  "file_count": 39,
+  "sha256": "7b02e33db65136c5f1759a4b4353883c9a9006772e6d8df452468642ed30296e",
+  "size_bytes": 1170013,
+  "file_count": 76,
   "components": {
     "app": true,
     "launcher": false,
@@ -19,9 +19,11 @@
   },
   "entrypoint": "Cognify.bat",
   "notes": [
-    "Cognify version 1.1.4 no-op app-only update",
-    "Used to verify the GitHub app updater flow",
+    "Cognify version 1.1.5 app-only update",
+    "Adds SQLite activity store runtime dependency",
+    "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
+    "Migrates legacy profile and notes from the old app data folder",
     "Requires an existing Cognify baseline install",
-    "No Electron, Screenpipe, FFmpeg, node_modules, or .NET runtime included"
+    "No Electron, Screenpipe, FFmpeg, full node_modules, or .NET runtime included"
   ]
 }
