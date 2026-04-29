@@ -1,15 +1,15 @@
 {
   "product": "Cognify",
   "channel": "stable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "update_type": "app",
-  "bundle_file": "",
-  "published_at": "2026-04-29T14:45:00+05:30",
+  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.1-20260429.zip",
+  "published_at": "2026-04-29T15:19:49+05:30",
   "requires_restart": true,
   "requires_existing_install": true,
-  "sha256": "",
-  "size_bytes": 0,
-  "file_count": 0,
+  "sha256": "c1cdfdf04146c5ca953c1219cf60df158490038921c06b94964f94e75010f6a8",
+  "size_bytes": 107492,
+  "file_count": 39,
   "components": {
     "app": true,
     "launcher": false,
@@ -19,8 +19,8 @@
   },
   "entrypoint": "Cognify.bat",
   "notes": [
-    "Cognify 1.1.0 baseline manifest",
-    "No update is downloaded when local version is already 1.1.0",
-    "Future app-only update bundles will be published here"
+    "Cognify version 1.1.1 app-only update",
+    "Requires an existing Cognify baseline install",
+    "No Electron, Screenpipe, FFmpeg, node_modules, or .NET runtime included"
   ]
 }
