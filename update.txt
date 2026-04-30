@@ -1,14 +1,14 @@
 {
   "product": "Cognify",
   "channel": "stable",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "update_type": "app",
-  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.6-20260430.zip",
-  "published_at": "2026-04-30T18:26:09+05:30",
+  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.7-20260430.zip",
+  "published_at": "2026-04-30T19:01:12+05:30",
   "requires_restart": true,
   "requires_existing_install": true,
-  "sha256": "ca6a95c1462ed121e4e3f68f26643ce5389172a819d274e910fee9c8e652a41a",
-  "size_bytes": 138673526,
+  "sha256": "e251b04c477350abe5d113c70c5ebf78d00c963d7b4a409d5571b57244cedd1d",
+  "size_bytes": 138675804,
   "file_count": 91,
   "components": {
     "app": true,
@@ -19,7 +19,7 @@
   },
   "entrypoint": "Cognify.bat",
   "notes": [
-    "Cognify version 1.1.6 app-only update",
+    "Cognify version 1.1.7 app-only update",
     "Adds SQLite activity store runtime dependency",
     "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
     "Updates bundled Screenpipe CLI dependency for Windows compatibility",
