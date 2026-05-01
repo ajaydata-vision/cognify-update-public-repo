@@ -1,30 +1,30 @@
 {
-  "product": "Cognify",
-  "channel": "stable",
-  "version": "1.1.7",
-  "update_type": "app",
-  "bundle_file": "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/Cognify-app-update-v1.1.7-20260430.zip",
-  "published_at": "2026-04-30T19:01:12+05:30",
-  "requires_restart": true,
-  "requires_existing_install": true,
-  "sha256": "e251b04c477350abe5d113c70c5ebf78d00c963d7b4a409d5571b57244cedd1d",
-  "size_bytes": 138675804,
-  "file_count": 91,
-  "components": {
-    "app": true,
-    "launcher": false,
-    "electron": false,
-    "screenpipe": true,
-    "dotnet": false
-  },
-  "entrypoint": "Cognify.bat",
-  "notes": [
-    "Cognify version 1.1.7 app-only update",
-    "Adds SQLite activity store runtime dependency",
-    "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
-    "Updates bundled Screenpipe CLI dependency for Windows compatibility",
-    "Migrates legacy profile and notes from the old app data folder",
-    "Requires an existing Cognify baseline install",
-    "No Electron, FFmpeg, full node_modules, or .NET runtime included"
-  ]
+    "product":  "Cognify",
+    "channel":  "stable",
+    "version":  "1.1.8",
+    "update_type":  "app",
+    "bundle_file":  "Cognify-app-update-v1.1.8-20260501.zip",
+    "published_at":  "2026-05-01T15:13:58+05:30",
+    "requires_restart":  true,
+    "requires_existing_install":  true,
+    "sha256":  "9a6ca27cb4821d585509bba9303a7f2aac137160ec07a148e9791124b4a9e7d5",
+    "size_bytes":  138679779,
+    "file_count":  91,
+    "components":  {
+                       "app":  true,
+                       "launcher":  false,
+                       "electron":  false,
+                       "screenpipe":  true,
+                       "dotnet":  false
+                   },
+    "entrypoint":  "Cognify.bat",
+    "notes":  [
+                  "Cognify version 1.1.8 app-only update",
+                  "Adds SQLite activity store runtime dependency",
+                  "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
+                  "Updates bundled Screenpipe CLI dependency for Windows compatibility",
+                  "Migrates legacy profile and notes from the old app data folder",
+                  "Requires an existing Cognify baseline install",
+                  "No Electron, FFmpeg, full node_modules, or .NET runtime included"
+              ]
 }
