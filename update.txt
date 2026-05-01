@@ -1,30 +1,28 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.8",
+    "version":  "1.1.9",
     "update_type":  "app",
-    "bundle_file":  "Cognify-app-update-v1.1.8-20260501.zip",
-    "published_at":  "2026-05-01T15:13:58+05:30",
+    "bundle_file":  "Cognify-code-update-v1.1.9-20260501.zip",
+    "published_at":  "2026-05-01T15:46:11+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "9a6ca27cb4821d585509bba9303a7f2aac137160ec07a148e9791124b4a9e7d5",
-    "size_bytes":  138679779,
-    "file_count":  91,
+    "sha256":  "299fb5cebea92a3bf53a567cd17eba97d2647dded82c80152fc6ea2255b6ca53",
+    "size_bytes":  157182,
+    "file_count":  47,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  true,
+                       "screenpipe":  false,
+                       "sqlite_native":  false,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.8 app-only update",
-                  "Adds SQLite activity store runtime dependency",
-                  "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
-                  "Updates bundled Screenpipe CLI dependency for Windows compatibility",
-                  "Migrates legacy profile and notes from the old app data folder",
-                  "Requires an existing Cognify baseline install",
-                  "No Electron, FFmpeg, full node_modules, or .NET runtime included"
+                  "Cognify version 1.1.9 code-only update",
+                  "Includes app source, report UI, and updater metadata changes",
+                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
+                  "Requires an existing Cognify baseline install"
               ]
 }
