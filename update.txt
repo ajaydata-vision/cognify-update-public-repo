@@ -3,27 +3,28 @@
     "channel":  "stable",
     "version":  "1.1.27",
     "update_type":  "app",
-    "bundle_file":  "Cognify-code-update-v1.1.27-20260510.zip",
-    "published_at":  "2026-05-10T11:34:06+05:30",
+    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.27-20260510.zip",
+    "published_at":  "2026-05-10T21:40:45+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "70d05a7045b678994dcf580fa45aefeaec003c8dbd25c1248ca9bb8915967174",
-    "size_bytes":  9411395,
-    "file_count":  84,
+    "sha256":  "6907cae75fd1f6cf5685b7343ff785d116b1999711db3297503137d1f3f053c7",
+    "size_bytes":  149941702,
+    "file_count":  143,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  false,
-                       "sqlite_native":  false,
+                       "screenpipe":  true,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.27 code-only update",
-                  "Includes app source, report UI, and updater metadata changes",
-                  "Includes the ONNX Runtime DLL required for stable local audio listening",
-                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
-                  "Requires an existing Cognify baseline install"
+                  "Cognify version 1.1.27 app-only update",
+                  "Adds SQLite activity store runtime dependency",
+                  "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
+                  "Updates bundled Screenpipe CLI dependency for Windows compatibility",
+                  "Migrates legacy profile and notes from the old app data folder",
+                  "Requires an existing Cognify baseline install",
+                  "No Electron, FFmpeg, full node_modules, or .NET runtime included"
               ]
 }
