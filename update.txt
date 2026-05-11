@@ -1,32 +1,29 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.38",
+    "version":  "1.1.39",
     "update_type":  "app",
-    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.38-20260511.zip",
-    "published_at":  "2026-05-11T18:45:32+05:30",
+    "bundle_file":  "Cognify-code-update-v1.1.39-20260511.zip",
+    "published_at":  "2026-05-11T19:40:45+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "b734484fea5fb6da8a10e871572e97475ce74a50fddbc7002e0420e11a945736",
-    "size_bytes":  71718617,
-    "file_count":  144,
+    "sha256":  "ff332f94fa8d5c6193435d980cb543ea03060840a66a2e23a6e5a9185392273b",
+    "size_bytes":  9447469,
+    "file_count":  90,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  true,
+                       "screenpipe":  false,
+                       "sqlite_native":  false,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.38 app-only update",
-                  "Fixes Daily Report working-hours accuracy by forcing a fresh Screenpipe sync for user-requested reports",
-                  "Adds periodic silent update checks after startup so future releases are discovered while Cognify is already running",
-                  "Fixes first-run setup so reports, capture, focus monitoring, and update apply wait until onboarding is complete",
-                  "Adds a dedicated Cognify Setup window for new users instead of showing the report panel first",
-                  "Defers silent updater apply during setup to avoid relaunching while a user is typing onboarding details",
-                  "Includes Screenpipe runtime FFmpeg for reliable capture startup",
-                  "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
-                  "Requires an existing Cognify baseline install; no Electron, full node_modules, or .NET runtime included"
+                  "Cognify version 1.1.39 code-only update",
+                  "Includes app source, report UI, and updater metadata changes",
+                  "Includes the ONNX Runtime DLL required for stable local audio listening",
+                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
+                  "Requires an existing Cognify baseline install"
               ]
 }
