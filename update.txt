@@ -1,15 +1,15 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.35",
+    "version":  "1.1.36",
     "update_type":  "app",
-    "bundle_file":  "https://media.githubusercontent.com/media/ajaydata-vision/cognify-update-public-repo/main/portable-dist/Cognify-app-update-v1.1.35-20260511.zip",
-    "published_at":  "2026-05-11T13:38:19+05:30",
+    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.36-20260511.zip",
+    "published_at":  "2026-05-11T16:47:12+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "5a172d2312161b1fe7b4cd7232c9ce94cf28aa9ea08846abbee85217faf7535c",
-    "size_bytes":  42017338,
-    "file_count":  141,
+    "sha256":  "142c9e7891daa50d51cbe875ddb0535d6cfb4c5b419bef79c845f6bce83b9f02",
+    "size_bytes":  71711699,
+    "file_count":  142,
     "components":  {
                        "app":  true,
                        "launcher":  false,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.35 app-only update",
+                  "Cognify version 1.1.36 app-only update",
                   "Adds SQLite activity store runtime dependency",
                   "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
                   "Isolates Cognify Screenpipe data from the user\u0027s global Screenpipe database",
@@ -27,6 +27,6 @@
                   "Keeps snapshot, nudge, and report refreshes responsive with cached background work",
                   "Handles Cognify-owned Screenpipe startup and clean exit more gracefully",
                   "Requires an existing Cognify baseline install",
-                  "No Electron, FFmpeg, full node_modules, or .NET runtime included"
+                  "Includes Screenpipe runtime FFmpeg; no Electron, full node_modules, or .NET runtime included"
               ]
 }
