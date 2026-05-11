@@ -1,15 +1,15 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.36",
+    "version":  "1.1.37",
     "update_type":  "app",
-    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.36-20260511.zip",
-    "published_at":  "2026-05-11T16:47:12+05:30",
+    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.37-20260511.zip",
+    "published_at":  "2026-05-11T17:25:33+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "142c9e7891daa50d51cbe875ddb0535d6cfb4c5b419bef79c845f6bce83b9f02",
-    "size_bytes":  71711699,
-    "file_count":  142,
+    "sha256":  "8aa6204cd24158df62f5a55db1db2d8a229ec736d42cb0650170d5eac9e95058",
+    "size_bytes":  71718299,
+    "file_count":  144,
     "components":  {
                        "app":  true,
                        "launcher":  false,
@@ -19,14 +19,12 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.36 app-only update",
-                  "Adds SQLite activity store runtime dependency",
-                  "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
-                  "Isolates Cognify Screenpipe data from the user\u0027s global Screenpipe database",
+                  "Cognify version 1.1.37 app-only update",
+                  "Fixes first-run setup so reports, capture, focus monitoring, and update apply wait until onboarding is complete",
+                  "Adds a dedicated Cognify Setup window for new users instead of showing the report panel first",
+                  "Defers silent updater apply during setup to avoid relaunching while a user is typing onboarding details",
+                  "Includes Screenpipe runtime FFmpeg for reliable capture startup",
                   "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
-                  "Keeps snapshot, nudge, and report refreshes responsive with cached background work",
-                  "Handles Cognify-owned Screenpipe startup and clean exit more gracefully",
-                  "Requires an existing Cognify baseline install",
-                  "Includes Screenpipe runtime FFmpeg; no Electron, full node_modules, or .NET runtime included"
+                  "Requires an existing Cognify baseline install; no Electron, full node_modules, or .NET runtime included"
               ]
 }
