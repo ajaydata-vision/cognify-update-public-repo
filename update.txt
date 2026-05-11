@@ -1,29 +1,32 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.34",
+    "version":  "1.1.35",
     "update_type":  "app",
-    "bundle_file":  "Cognify-code-update-v1.1.34-20260511.zip",
-    "published_at":  "2026-05-11T00:18:52+05:30",
+    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.35-20260511.zip",
+    "published_at":  "2026-05-11T13:38:19+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "02b2151d01aba786e8b94cbb01f4f68b93969a84a25479c97c31c714c12f2cba",
-    "size_bytes":  9432426,
-    "file_count":  87,
+    "sha256":  "5a172d2312161b1fe7b4cd7232c9ce94cf28aa9ea08846abbee85217faf7535c",
+    "size_bytes":  42017338,
+    "file_count":  141,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  false,
-                       "sqlite_native":  false,
+                       "screenpipe":  true,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.34 code-only update",
-                  "Includes app source, report UI, and updater metadata changes",
-                  "Includes the ONNX Runtime DLL required for stable local audio listening",
-                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
-                  "Requires an existing Cognify baseline install"
+                  "Cognify version 1.1.35 app-only update",
+                  "Adds SQLite activity store runtime dependency",
+                  "SQLite mode reads SQLite and keeps JSONL as live rollback copy",
+                  "Isolates Cognify Screenpipe data from the user\u0027s global Screenpipe database",
+                  "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
+                  "Keeps snapshot, nudge, and report refreshes responsive with cached background work",
+                  "Handles Cognify-owned Screenpipe startup and clean exit more gracefully",
+                  "Requires an existing Cognify baseline install",
+                  "No Electron, FFmpeg, full node_modules, or .NET runtime included"
               ]
 }
