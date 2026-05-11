@@ -3,27 +3,30 @@
     "channel":  "stable",
     "version":  "1.1.39",
     "update_type":  "app",
-    "bundle_file":  "Cognify-code-update-v1.1.39-20260511.zip",
-    "published_at":  "2026-05-11T19:40:45+05:30",
+    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.39-20260511.zip",
+    "published_at":  "2026-05-11T19:43:58+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "ff332f94fa8d5c6193435d980cb543ea03060840a66a2e23a6e5a9185392273b",
-    "size_bytes":  9447469,
-    "file_count":  90,
+    "sha256":  "9c48d18af26a0f60856d3ee7fc46d2c63862fc1ed5e1b3da90c83792962c87a9",
+    "size_bytes":  71728016,
+    "file_count":  145,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  false,
-                       "sqlite_native":  false,
+                       "screenpipe":  true,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.39 code-only update",
-                  "Includes app source, report UI, and updater metadata changes",
-                  "Includes the ONNX Runtime DLL required for stable local audio listening",
-                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
-                  "Requires an existing Cognify baseline install"
+                  "Cognify version 1.1.39 app-only update",
+                  "Adds a low-load live truth ledger so Live Snapshot tracks working-hours evidence without waiting for reports",
+                  "Verifies closed hours in small background slices and rotates failed gap retries so one bad hour cannot block the day",
+                  "Shows visible verified, pending, gap, and offline status directly in Live Snapshot",
+                  "Lets report cache reuse verified live-truth hours for working-hours totals",
+                  "Fixes first-run setup so reports, capture, focus monitoring, and update apply wait until onboarding is complete",
+                  "Includes Screenpipe runtime FFmpeg for reliable capture startup",
+                  "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
+                  "Requires an existing Cognify baseline install; no Electron, full node_modules, or .NET runtime included"
               ]
 }
