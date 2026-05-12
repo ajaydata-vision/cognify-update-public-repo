@@ -3,7 +3,7 @@
     "channel":  "stable",
     "version":  "1.1.40",
     "update_type":  "app",
-    "bundle_file":  "portable-dist/Cognify-app-update-v1.1.40-20260512.zip",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.40-20260512.zip",
     "published_at":  "2026-05-12T11:09:48+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
