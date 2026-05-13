@@ -4,10 +4,10 @@
     "version":  "1.1.48",
     "update_type":  "app",
     "bundle_file":  "Cognify-code-update-v1.1.48-20260514.zip",
-    "published_at":  "2026-05-14T00:36:03+05:30",
+    "published_at":  "2026-05-14T00:42:38+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "b801dcb30f83d0e519282ad7b42d4185506299657e11715e77fdd45293212d81",
+    "sha256":  "71fba383a74c93c74afb4d25f7a00a50034591c7410eaddd2d61344aca7a70fa",
     "size_bytes":  9457240,
     "file_count":  91,
     "components":  {
