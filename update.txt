@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.48",
+    "version":  "1.1.49",
     "update_type":  "app",
-    "bundle_file":  "Cognify-code-update-v1.1.48-20260514.zip",
-    "published_at":  "2026-05-14T00:42:38+05:30",
+    "bundle_file":  "Cognify-code-update-v1.1.49-20260514.zip",
+    "published_at":  "2026-05-14T12:39:11+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "71fba383a74c93c74afb4d25f7a00a50034591c7410eaddd2d61344aca7a70fa",
-    "size_bytes":  9457240,
+    "sha256":  "de1898cfdfc54477f621e621582241aeb0e81acbf0e9c76c911d5805428e3d09",
+    "size_bytes":  9458041,
     "file_count":  91,
     "components":  {
                        "app":  true,
@@ -20,7 +20,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.48 code-only update",
+                  "Cognify version 1.1.49 code-only update",
                   "Includes app source, report UI, and updater metadata changes",
                   "Includes the ONNX Runtime DLL required for stable local audio listening",
                   "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
