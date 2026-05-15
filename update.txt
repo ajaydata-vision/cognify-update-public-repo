@@ -1,29 +1,34 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.66",
+    "version":  "1.1.67",
     "update_type":  "app",
-    "bundle_file":  "Cognify-code-update-v1.1.66-20260515.zip",
-    "published_at":  "2026-05-15T21:04:53+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.67-20260515.zip",
+    "published_at":  "2026-05-15T21:24:36+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "ffe3dd985f4588741322ecea948e39c35ff50af0a1473e87b093e1b1f5a343e7",
-    "size_bytes":  9470951,
-    "file_count":  91,
+    "sha256":  "bb5a9bc3fd8a19118ce2d44f73caffad0543b54219eff49fb1c7a198554bfc7d",
+    "size_bytes":  72972035,
+    "file_count":  147,
     "components":  {
                        "app":  true,
                        "launcher":  false,
                        "electron":  false,
-                       "screenpipe":  false,
-                       "sqlite_native":  false,
+                       "screenpipe":  true,
                        "dotnet":  false
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.66 code-only update",
-                  "Includes app source, report UI, and updater metadata changes",
-                  "Includes the ONNX Runtime DLL required for stable local audio listening",
-                  "Does not include Electron, Screenpipe, FFmpeg, native SQLite, full node_modules, or .NET runtime",
-                  "Requires an existing Cognify baseline install"
+                  "Cognify version 1.1.67 app-only update",
+                  "Adds a low-load live truth ledger so Live Snapshot tracks working-hours evidence without waiting for reports",
+                  "Verifies closed hours in small background slices and rotates failed gap retries so one bad hour cannot block the day",
+                  "Shows visible verified, pending, gap, and offline status directly in Live Snapshot",
+                  "Lets report cache reuse verified live-truth hours for working-hours totals",
+                  "Simplifies Live Snapshot by replacing top-app and site cards with the verified-through hour status",
+                  "Disables Electron hardware acceleration to avoid GPU-process startup crashes on some machines",
+                  "Fixes first-run setup so reports, capture, focus monitoring, and update apply wait until onboarding is complete",
+                  "Includes Screenpipe runtime FFmpeg for reliable capture startup",
+                  "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
+                  "Requires an existing Cognify baseline install; no Electron, full node_modules, or .NET runtime included"
               ]
 }
