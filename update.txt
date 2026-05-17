@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.69",
+    "version":  "1.1.70",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.69-20260516.zip",
-    "published_at":  "2026-05-16T00:57:10+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.70-20260517.zip",
+    "published_at":  "2026-05-17T09:23:26+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "cf5a07ba354f51bfbd54744b0c0b9dce6c65c1cfd6d56ab22df84cfe43d014fc",
-    "size_bytes":  82045725,
+    "sha256":  "a2fcd18467b03ba0516eeadc7055e9bea5f3f159296231c9268d0d9c8eee8704",
+    "size_bytes":  82046249,
     "file_count":  148,
     "components":  {
                        "app":  true,
@@ -19,12 +19,16 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.69 app-only update",
-                  "Disables Screenpipe vision capture by default after Windows WGC testing showed it can cause mouse movement slowness on affected PCs",
-                  "Keeps Screenpipe audio disabled and UI event capture available while preventing continuous screen-frame capture",
-                  "Forces existing normal-vision settings to No Vision unless the experimental COGNIFY_EXPERIMENTAL_SCREENPIPE_VISION=1 override is set",
-                  "Updates health details to report No Vision as the smooth-mouse safety mode",
-                  "Preserves base working-hours tracking through OS idle time and foreground activity without requiring screen OCR",
+                  "Cognify version 1.1.70 app-only update",
+                  "Adds a low-load live truth ledger so Live Snapshot tracks working-hours evidence without waiting for reports",
+                  "Verifies closed hours in small background slices and rotates failed gap retries so one bad hour cannot block the day",
+                  "Shows visible verified, pending, gap, and offline status directly in Live Snapshot",
+                  "Lets report cache reuse verified live-truth hours for working-hours totals",
+                  "Simplifies Live Snapshot by replacing top-app and site cards with the verified-through hour status",
+                  "Disables Electron hardware acceleration to avoid GPU-process startup crashes on some machines",
+                  "Fixes first-run setup so reports, capture, focus monitoring, and update apply wait until onboarding is complete",
+                  "Includes Screenpipe runtime FFmpeg for reliable capture startup",
+                  "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
                   "Requires an existing Cognify baseline install; no Electron, full node_modules, or .NET runtime included"
               ]
 }
