@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.71",
+    "version":  "1.1.72",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.71-20260518.zip",
-    "published_at":  "2026-05-18T17:27:32+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.72-20260518.zip",
+    "published_at":  "2026-05-18T18:26:17+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "8e7b7f97b939a1241b905438c7ad1ea33ffe04c57abf41582f213768d74d1c72",
-    "size_bytes":  82050769,
+    "sha256":  "eca93984c69437acf230bcfc9c0d45f13045a78aedf9702252b127879a77099a",
+    "size_bytes":  82055747,
     "file_count":  148,
     "components":  {
                        "app":  true,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.71 app-only update",
+                  "Cognify version 1.1.72 app-only update",
                   "Adds a low-load live truth ledger so Live Snapshot tracks working-hours evidence without waiting for reports",
                   "Verifies closed hours in small background slices and rotates failed gap retries so one bad hour cannot block the day",
                   "Shows visible verified, pending, gap, and offline status directly in Live Snapshot",
