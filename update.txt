@@ -31,6 +31,7 @@
                   "Keeps closed no-evidence gaps as review rows without inflating PC Available",
                   "Adds Cognify runtime availability pulses so PC Available survives focus, idle, and Screenpipe evidence outages",
                   "Treats range minutes only as a bound; PC Available now requires runtime availability or concrete local evidence",
+                  "Extends stale Live Snapshot hours from runtime availability so current PC Available does not show false missing/no-evidence minutes between refreshes",
                   "Keeps Work Hours accounting as PC Available minus Idle deducted plus Manual added",
                   "Includes Screenpipe runtime FFmpeg for reliable capture startup",
                   "Runs bundled Screenpipe at low video quality, English OCR, and below-normal priority",
