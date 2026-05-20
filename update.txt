@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.82",
+    "version":  "1.1.83",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.82-20260519.zip",
-    "published_at":  "2026-05-19T21:02:08+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.83-20260520.zip",
+    "published_at":  "2026-05-20T07:03:20+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "70ce30e7cbdf7ed24dde5dfcdbe8b38ebac30b92c1e52bb50cc491f525c72383",
-    "size_bytes":  82080211,
+    "sha256":  "40b2ab921c94bc33aa32453c2c73bf91a07be7b147f3044ea5133d94543b49a2",
+    "size_bytes":  82083931,
     "file_count":  153,
     "components":  {
                        "app":  true,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.82 app-only update",
+                  "Cognify version 1.1.83 app-only update",
                   "Hardens Windows Focus telemetry with stale-event detection and automatic helper restart",
                   "Prevents stale focus helper restart loops by applying the hourly restart limit to watchdog restarts",
                   "Protects focus helper replacement from old-process exit races during self-heal",
