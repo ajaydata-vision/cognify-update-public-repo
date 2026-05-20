@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.84",
+    "version":  "1.1.85",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.84-20260520.zip",
-    "published_at":  "2026-05-20T07:16:03+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/refs/heads/main/portable-dist/Cognify-app-update-v1.1.85-20260520.zip",
+    "published_at":  "2026-05-20T08:39:00+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "d3e7463c3d1dbe817042079b3221a6603b6987cf72e2a5bcd09aba99778c04f0",
-    "size_bytes":  82084134,
+    "sha256":  "b26ab6610c1c31661c5412feef8f91119bee93a3d5c32cdbc75aa16a5b545a3b",
+    "size_bytes":  82085373,
     "file_count":  153,
     "components":  {
                        "app":  true,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.84 app-only update",
+                  "Cognify version 1.1.85 app-only update",
                   "Redesigns the Reports section as a visible tabbed workspace with Daily, Activity, Weekly, Tasks, and Ask flows",
                   "Shows From and To filters directly in Reports, defaults them to yesterday, and formats report dates as dd-mm-yyyy",
                   "Runs each report from the selected visible date range with inline validation instead of a hidden Date Range drawer",
