@@ -4,11 +4,11 @@
     "version":  "1.1.99",
     "update_type":  "app",
     "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.99-20260522.zip",
-    "published_at":  "2026-05-22T07:36:57+05:30",
+    "published_at":  "2026-05-22T07:41:47+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "4436078d47cd70ec188e3e63f53c6d094f154794cb41f856278952f4b50991c0",
-    "size_bytes":  82109345,
+    "sha256":  "20be08f24eb7abb6ae6799a9b5716c94d63bd773c248d1c02b63c91ff8175294",
+    "size_bytes":  82109412,
     "file_count":  155,
     "components":  {
                        "app":  true,
@@ -20,6 +20,8 @@
     "entrypoint":  "Cognify.bat",
     "notes":  [
                   "Cognify version 1.1.99 app-only update",
+                  "Refreshes Live Truth and Report Cache when a system-idle slot closes across local midnight",
+                  "Rebuilds reports instead of accepting stale partial Live Truth hours for completed full-hour ranges",
                   "Fixes the idle-block dropdown so expanded options use readable text on a white native menu background",
                   "Replaces manual From/To time entry with a dropdown of Cognify-detected idle blocks",
                   "Lets users select an exact idle block before adding manual work, meeting, break, or other context",
