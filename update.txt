@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.99",
+    "version":  "1.1.100",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.99-20260522.zip",
-    "published_at":  "2026-05-22T07:41:47+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.100-20260522.zip",
+    "published_at":  "2026-05-22T07:44:03+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "20be08f24eb7abb6ae6799a9b5716c94d63bd773c248d1c02b63c91ff8175294",
-    "size_bytes":  82109412,
+    "sha256":  "a97eebdc0b775b7e9bcc7cbf063ead97a88fdf9f039f027a0e4d34d0030fc29f",
+    "size_bytes":  82109411,
     "file_count":  155,
     "components":  {
                        "app":  true,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.99 app-only update",
+                  "Cognify version 1.1.100 app-only update",
                   "Refreshes Live Truth and Report Cache when a system-idle slot closes across local midnight",
                   "Rebuilds reports instead of accepting stale partial Live Truth hours for completed full-hour ranges",
                   "Fixes the idle-block dropdown so expanded options use readable text on a white native menu background",
