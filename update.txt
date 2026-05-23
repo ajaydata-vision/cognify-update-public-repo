@@ -1,14 +1,14 @@
 {
     "product":  "Cognify",
     "channel":  "stable",
-    "version":  "1.1.104",
+    "version":  "1.1.105",
     "update_type":  "app",
-    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.104-20260522.zip",
-    "published_at":  "2026-05-22T19:25:21+05:30",
+    "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.105-20260524.zip",
+    "published_at":  "2026-05-24T01:02:53+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "82a08006b1d0a1388e0ce5a34971295cabdb9b8af6b32dc95d1d2cfd8d81ff6d",
-    "size_bytes":  82118786,
+    "sha256":  "36387b3dd5b451daa4e6c01d266f0fd24865c3269d11b9f15bb294bc4dab6dbe",
+    "size_bytes":  82119199,
     "file_count":  155,
     "components":  {
                        "app":  true,
@@ -19,7 +19,7 @@
                    },
     "entrypoint":  "Cognify.bat",
     "notes":  [
-                  "Cognify version 1.1.104 app-only update",
+                  "Cognify version 1.1.105 app-only update",
                   "Treats payroll daily-log HTTP 200 responses with failure text or status=false as failed sends",
                   "Keeps failed payroll daily-log sends in retry state instead of marking the day sent",
                   "Retries payroll daily-log delivery after backoff when the payroll API reports an internal failure",
