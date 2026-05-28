@@ -5,10 +5,10 @@
     "update_type":  "app",
     "update_scope":  "app",
     "bundle_file":  "https://github.com/ajaydata-vision/cognify-update-public-repo/raw/main/portable-dist/Cognify-app-update-v1.1.106-20260528.zip",
-    "published_at":  "2026-05-28T11:43:51+05:30",
+    "published_at":  "2026-05-28T11:46:31+05:30",
     "requires_restart":  true,
     "requires_existing_install":  true,
-    "sha256":  "b4fc13df48bd7eacd9506baa40701cb4f1111f29599b2cde245866f5da55a3c1",
+    "sha256":  "73fe4eb0ef7df2e954b5429151d15916f638501cdad350267a9897a4064570a7",
     "size_bytes":  82122755,
     "file_count":  155,
     "components":  {
